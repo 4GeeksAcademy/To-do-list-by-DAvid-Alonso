@@ -38,7 +38,7 @@ const Home = () => {
 	return (
 		<div className="container my-5">
 			<div className="w-75">
-				<h1 className="text-center">Tareas para mi marido <i className="fa-solid fa-heart"></i></h1>
+				<h1 className="text-start">Tareas para mi marido <i className="fa-solid fa-heart"></i></h1>
 
 				<ul className="list-group">
 					<li className="list-group-item">
