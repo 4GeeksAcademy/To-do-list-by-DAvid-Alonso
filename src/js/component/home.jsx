@@ -46,7 +46,7 @@ const Home = () => {
 							onChange={(e) => setInputValue(e.target.value)}
 							value={inputValue}
 							type="text"
-							onKeyPress={(e) => {
+							onKeyDown={(e) => {
 								if (e.key === "Enter") {
 									handleAddTodo();
 								}
@@ -64,7 +64,7 @@ const Home = () => {
 										value={editValue}
 										onChange={(e) => setEditValue(e.target.value)}
 										className="form-control"
-										onKeyPress={(e) => {
+										onKeyDown={(e) => {
 											if (e.key === "Enter") {
 												handleSaveEdit();
 											}
